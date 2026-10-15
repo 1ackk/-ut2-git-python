@@ -1,0 +1,7 @@
+limite = int(input("Suma los pares hasta: "))
+suma = 0
+for i in range(1, limite + 1):
+    if i % 2 != 0:
+        continue
+    suma = suma + i
+print(f"La suma de los pares es: {suma}")
