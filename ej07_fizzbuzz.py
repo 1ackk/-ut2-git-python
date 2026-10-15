@@ -1,5 +1,5 @@
 # Ejercicio 7: FizzBuzz (for + if/elif/else)
-limite = int(input("¿Hasta qué número?"))
+limite = int(input("¿Hasta qué número quieres ir?"))
 for i in range(1, limite + 1):
     if i % 15 == 0:
         print("FizzBuzz")
@@ -9,4 +9,4 @@ for i in range(1, limite + 1):
         print("Buzz")
     else:
         print(i)
-print("Fin del programa")
+print("Fin del programa fizzbuzz")
