@@ -1,13 +1,13 @@
 nota = float(input("Escribe tu nota: "))
 calificacion = ""
-if 5 > nota >= 0:
-    calificacion = "Suspenso"
-elif 5 <= nota < 7:
-    calificacion = "Aprobado"
-elif 7 <= nota < 9:
-    calificacion = "Notable"
-elif 9 <= nota <= 10:
-    calificacion = "Sobresaliente"
+if nota < 5:
+ calificacion = "Suspenso"
+elif nota < 6:
+ calificacion = "Suficiente"
+elif nota < 7:
+ calificacion = "Bien"
+elif nota < 9:
+ calificacion = "Notable"
 else:
-    calificacion = "Nota no valida"
+ calificacion = "Sobresaliente"
 print(f"Calificación: {calificacion}")
