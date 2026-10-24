@@ -1,5 +1,5 @@
 num = 0
-try: 
+trys: 
     num = int(input("Introduce un numero entero: "))
 except ValueError:
     print("ERR0R: El valor que has introducido no es un error.")
