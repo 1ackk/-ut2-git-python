@@ -13,3 +13,6 @@ Autor: Ian Navarro Lopez
 
 ## Colaboradores
 - Javier Gallego
+
+## Fichero de Contributing
+[CONTRIBUTING.md](CONTRIBUTING.md)
